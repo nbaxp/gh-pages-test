@@ -5,10 +5,14 @@
 ```yaml
 ---
 name: push to gh-pages
+
 on:
   push:
-    branches: [main, master]
-    tags: ["v*"]
+    branches:
+      - master
+      - main
+    tags:
+      - "v*"
 
 jobs:
   All_ON_PUSH:
