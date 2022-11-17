@@ -1,6 +1,6 @@
 # github pages test
 
-不需要手动创建 gh-pages 分支和配置项目,只需要添加 .github/workflows/gh-pages.yml 文件,push 到 main 分支时会自动构建并提交到 gh-pages 分支
+不需要手动创建 gh-pages 分支和配置项目,只需要添加 .github/workflows/gh-pages.yml 文件,当 push 到 main 或 master 分支或 tag 时以 v 开头，会自动构建并提交到 gh-pages 分支
 
 ```yaml
 ---

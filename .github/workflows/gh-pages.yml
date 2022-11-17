@@ -2,7 +2,8 @@
 name: push to gh-pages
 on:
   push:
-    branches: [main]
+    branches: [main, master]
+    tags: ["v*"]
 
 jobs:
   All_ON_PUSH:
